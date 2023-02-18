@@ -15,7 +15,7 @@ const Input = ({enter, setEnter, todos, setTodos}) => {
     <div>
          <form className='container p-4 my-4 border'>
             <div className="mb-3 mt-3">
-                <h2 className='h2'>Fill In the Form</h2>
+                <h2 className='h2'>Fill In the Form Please</h2>
                 <InputField  label="Name" value= {enter.name} newFunction={(newVal)=>setEnter({...enter,name:newVal})}/>
                 <InputField  label="Email" value= {enter.email} newFunction={(val) => setEnter({...enter,email:val})}/>
             </div>
