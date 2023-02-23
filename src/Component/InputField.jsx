@@ -6,7 +6,7 @@ const InputField = ({label, value, newFunction}) => {
         <label  className="form-label">{label}:</label>
         <input type="text" 
         className="form-control"  
-        placeholder={`Enter Your ${label}`}
+        placeholder={`Enter ${label}`}
         value= {value}
         onChange = {(e) => newFunction(e.target.value)}
         />
